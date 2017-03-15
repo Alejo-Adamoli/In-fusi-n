@@ -1,0 +1,28 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 86%;
+	margin-left: 6.5%;
+	margin-right: auto;
+	overflow: auto;
+}
+
+.menu {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu li {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	list-style-type: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+}
