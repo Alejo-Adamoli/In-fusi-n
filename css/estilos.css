@@ -26,3 +26,20 @@ body {
 	text-decoration: none;
 	color: #000;
 }
+
+@keyframes aparecer{
+	from{
+		transform: scaleY(0);
+	}
+	to{
+		transform: scaleY(1);
+	}
+}
+
+.sub-menu a{
+	transform: scaleY(0);
+	transform-origin: top center;
+	animation-name: aparecer;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
