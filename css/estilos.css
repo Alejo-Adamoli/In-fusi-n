@@ -72,10 +72,24 @@ nav li:hover ul {
 }
 
 .portada {
-	clear: left;
+	clear: both;
+	width: 100%;
 	position: absolute;
 	top: 25%;
 	padding-left: 1%;
+}
+
+.columna-1 {
+	width: 70%;
+}
+
+.columna-2 {
+	width: 30%;
+}
+
+footer {
+	width: 100%;
+	clear: both;
 }
 
 h1 {
