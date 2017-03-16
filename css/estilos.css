@@ -71,3 +71,6 @@ nav li:hover ul {
 	animation-fill-mode: forwards;
 }
 
+.portada {
+	clear: left;
+}
