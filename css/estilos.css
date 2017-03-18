@@ -40,6 +40,11 @@ ul {
 
 /*inicio de submenú*/
 
+nav > ul {
+	overflow: auto;
+	border-radius: 10px;
+}
+
 nav li a {
 	background-color: #333;
 	color: #DDDDDD;
