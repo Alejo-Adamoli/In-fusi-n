@@ -21,6 +21,7 @@ html {
 
 .container {
 	width: 80%;
+	max-width: 1920px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -37,9 +38,11 @@ ul {
 	list-style-type: none;
 }
 
+/*inicio de submenú*/
+
 nav li a {
 	background-color: #333;
-	color: #EDEDED;
+	color: #DDDDDD;
 	font-size: 1.4rem;
 	text-transform: capitalize;
 	font-weight: bold;
@@ -57,10 +60,22 @@ nav > ul > li {
 	float: left;
 	width: 25%;
 	text-align: center;
+	border-right: 1px solid #DDDDDD;
+}
+
+nav > ul > li:nth-child(3) {
+	border-right: none;
+}
+
+nav > ul > li:last-child {
+	border-left: 1px solid #DDDDDD;
+	border-right: none;
 }
 
 nav li ul {
 	display: none;
+	position: absolute;
+	min-width: 20%;
 }
 
 nav li:hover ul {
@@ -72,11 +87,12 @@ nav li:hover ul {
 	animation-fill-mode: forwards;
 }
 
+/*fin de submenú*/
+
 .portada {
 	clear: both;
 	width: 100%;
-	position: absolute;
-	top: 25%;
+	padding-top: 9%;
 	padding-left: 1%;
 }
 
