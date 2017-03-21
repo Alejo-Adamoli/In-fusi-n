@@ -126,29 +126,34 @@ h1 {
 
 /*inicio de columna izquierda*/
 
-.columna-1 {
+.biografia-banda {
+	padding: 4%;
+}
+
+.columna {
 	padding: 2%;
-	width: 65%;
+	width: 25%;
 	float: left;
 }
 
-article {
-	padding-bottom: 3%;
+.perfil {
+	width: 100%;
+	border-radius: 100%;
 }
 
-.columna-2 {
-	padding: 2%;
-	width: 35%;
-	float: left;
-}
-
-h2 {
+h3 {
 	padding-bottom: 1%;
 	font-size: 2rem;
+	text-align: center;
 }
 
 .container p {
 	font-size: 1.3rem;
+	text-align: center;
+}
+
+.biografia-banda p {
+	font-size: 1.6rem;
 }
 
 /*inicio de footer*/
