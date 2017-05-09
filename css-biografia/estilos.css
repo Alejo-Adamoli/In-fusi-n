@@ -54,7 +54,7 @@ nav li a {
 	background-color: #333;
 	color: #DDDDDD;
 	font-size: 1.4rem;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 4% 2%;
@@ -102,8 +102,11 @@ nav li:hover ul {
 /*inicio de portada*/
 
 .fondo {
-	background: rgb(165,35,1);
-	width: 100%;
+	background-image: url("../images/17.jpg");
+	min-width: 100%;
+	min-height: 140px;
+	background-position: 0px -250px;
+	background-size: cover;
 }
 
 .portada {
@@ -145,6 +148,15 @@ h3 {
 	padding-bottom: 1%;
 	font-size: 2rem;
 	text-align: center;
+}
+
+.foto-columna {
+	min-width: 20%;
+	width: 100%;
+	min-height: 140px;
+	height: 10px;
+	background-size: cover;
+	border-radius: 100%;
 }
 
 .container p {

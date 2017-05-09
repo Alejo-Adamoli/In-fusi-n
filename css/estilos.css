@@ -102,8 +102,11 @@ nav li:hover ul {
 /*inicio de portada*/
 
 .fondo {
-	background: rgb(165,35,1);
-	width: 100%;
+	background-image: url("../images/logo.png");
+	min-width: 100%;
+	min-height: 140px;
+	background-position: 0px -150px;
+	background-size: cover;
 }
 
 .portada {
@@ -114,7 +117,6 @@ nav li:hover ul {
 	padding-top: 9%;
 	padding-left: 1%;
 	padding-bottom: 5%;
-	background-image: url("images/portada.png");
 }
 
 h1 {

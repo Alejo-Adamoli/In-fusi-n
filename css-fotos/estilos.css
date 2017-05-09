@@ -54,7 +54,7 @@ nav li a {
 	background-color: #333;
 	color: #DDDDDD;
 	font-size: 1.4rem;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 4% 2%;
@@ -128,23 +128,32 @@ h1 {
 
 .columna-1 {
 	padding: 2%;
-	width: 65%;
+	width: 50%;
 	float: left;
 }
 
-article {
-	padding-bottom: 3%;
+.acostada {
+	min-width: 100%;
+	width: 100%;
+	min-height: 140px;
+	height: 400px;
+	background-position: 0px;
+	background-size: cover;
+}
+
+.parada {
+	min-width: 100%;
+	width: 100%;
+	min-height: 140px;
+	height: 700px;
+	background-position: 0px;
+	background-size: cover;
 }
 
 .columna-2 {
 	padding: 2%;
-	width: 35%;
+	width: 50%;
 	float: left;
-}
-
-h2 {
-	padding-bottom: 1%;
-	font-size: 2rem;
 }
 
 .container p {
