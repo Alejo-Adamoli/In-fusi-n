@@ -20,7 +20,7 @@ html {
 }
 
 .container {
-	width: 90%;
+	width: 80%;
 	background: #F8F0F0;
 	max-width: 1920px;
 	margin-left: auto;
@@ -54,7 +54,7 @@ nav li a {
 	background-color: #333;
 	color: #DDDDDD;
 	font-size: 1.4rem;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 4% 2%;
@@ -134,12 +134,33 @@ div.filas {
 	clear: both;
 }
 
+div.filas:first-child {
+	padding-top: 5%;
+}
+
+div.filas li.titulo-columna {
+	font-weight: bold;
+	text-align: left;
+	font-size: 3rem;
+}
+
+div.filas li.titulo-columna {
+	float: left; 
+	width: 33%;
+	font-size: 3rem;
+	text-align: left;
+	list-style: none;
+	padding-left: 2%;
+	padding-bottom: 2%;
+}
+
 ul.canciones > li {
-	float: left;
+	float: left; 
 	width: 33%;
 	font-size: 1.5rem;
-	text-align: center;
+	text-align: left;
 	list-style: none;
+	padding-left: 2%;
 }
 
 .container p {
@@ -149,7 +170,7 @@ ul.canciones > li {
 /*inicio de footer*/
 
 footer {
-	width: 90%;
+	width: 80%;
 	background: #F8F0F0;
 	clear: both;
 	padding: 2%;

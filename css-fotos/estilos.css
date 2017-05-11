@@ -54,7 +54,7 @@ nav li a {
 	background-color: #333;
 	color: #DDDDDD;
 	font-size: 1.4rem;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 4% 2%;
@@ -102,8 +102,11 @@ nav li:hover ul {
 /*inicio de portada*/
 
 .fondo {
-	background: rgb(165,35,1);
-	width: 100%;
+	background-image: url("../images/portada.png");
+	min-width: 100%;
+	min-height: 140px;
+	background-position: 0px -200px;
+	background-size: cover;
 }
 
 .portada {
