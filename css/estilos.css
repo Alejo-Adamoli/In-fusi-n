@@ -34,7 +34,7 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-	max-width: 1200px;
+	max-width: 3000px;
 	padding-top: 1.5%;
 }
 
@@ -102,10 +102,10 @@ nav li:hover ul {
 /*inicio de portada*/
 
 .fondo {
-	background-image: url("../images/logo.png");
+	background-image: url("../images/portada-2.jpg");
 	min-width: 100%;
-	min-height: 140px;
-	background-position: 0px -150px;
+	min-height: 600px;
+	background-position: 0px -50px;
 	background-size: cover;
 }
 
@@ -114,15 +114,14 @@ nav li:hover ul {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 9%;
-	padding-left: 1%;
-	padding-bottom: 5%;
+	padding-top: 3%;
+	padding-bottom: 1%;
 }
 
 h1 {
 	font-size: 4rem;
 	font-weight: 900;
-	color: #DDDDDD;
+	color: #000;
 }
 
 /*fin de portada*/
@@ -150,8 +149,25 @@ h2 {
 	font-size: 2rem;
 }
 
-.container p {
-	font-size: 1.3rem;
+.redes {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    display: inline-block;
+}
+
+
+.facebook {
+    background-image: url('../images/facebook-negro.png');
+    background-position: 0px 0px;
+	background-size: cover;
+}
+
+.facebook:hover {
+	background-image: url('../images/facebook.png');
 }
 
 /*inicio de footer*/
