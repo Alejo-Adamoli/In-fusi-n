@@ -170,6 +170,39 @@ h2 {
 	background-image: url('../images/facebook.png');
 }
 
+
+.twitter {
+    background-image: url('../images/twitter-negro.jpg');
+    background-position: 0px 0px;
+	background-size: cover;
+}
+
+.twitter:hover {
+	background-image: url('../images/twitter.png');
+}
+
+
+.instagram {
+    background-image: url('../images/instagram-negro.jpg');
+    background-position: 0px 0px;
+	background-size: cover;
+}
+
+.instagram:hover {
+	background-image: url('../images/instagram.jpg');
+}
+
+
+.youtube {
+    background-image: url('../images/youtube-negro.jpg');
+    background-position: 0px 0px;
+	background-size: cover;
+}
+
+.youtube:hover {
+	background-image: url('../images/youtube.jpg');
+}
+
 /*inicio de footer*/
 
 footer {
