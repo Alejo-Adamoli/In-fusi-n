@@ -172,7 +172,7 @@ h2 {
 
 
 .twitter {
-    background-image: url('../images/twitter-negro.jpg');
+    background-image: url('../images/twitter-negro.png');
     background-position: 0px 0px;
 	background-size: cover;
 }
@@ -183,24 +183,24 @@ h2 {
 
 
 .instagram {
-    background-image: url('../images/instagram-negro.jpg');
+    background-image: url('../images/instagram-negro.png');
     background-position: 0px 0px;
 	background-size: cover;
 }
 
 .instagram:hover {
-	background-image: url('../images/instagram.jpg');
+	background-image: url('../images/instagram.png');
 }
 
 
 .youtube {
-    background-image: url('../images/youtube-negro.jpg');
+    background-image: url('../images/youtube-negro.png');
     background-position: 0px 0px;
 	background-size: cover;
 }
 
 .youtube:hover {
-	background-image: url('../images/youtube.jpg');
+	background-image: url('../images/youtube.png');
 }
 
 /*inicio de footer*/
